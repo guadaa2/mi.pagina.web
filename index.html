@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body {
+    background-color: lightblue;
+    text-align: center;
+    padding-top: 50px;
+    font-family: Arial, sans-serif;
+  }
+  h1 {
+    color: navy;
+  }
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+</style>
+</head>
+<body>
+<h1>¡Hola desde HTML en App Inventor!</h1>
+<button onclick="enviarMensaje()">Hacé clic acá</button>
+<script>
+  function enviarMensaje() {
+    AppInventor.setWebViewString("boton_presionado");
+  }
+</script>
+</body>
+</html>
